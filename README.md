@@ -69,6 +69,31 @@ the AccountServiceImpl class encapsulates the logic for user and role management
 
 #### AccountDetailImpl
 the UserDetailServiceImpl class serves as a bridge between Spring Security's authentication mechanism and the application's user management system. It retrieves user details, including username, password, and roles, from the AccountService and constructs a UserDetails object for authentication and authorization purposes.
+## Diffrence between 3 methods
+
+InMemoryUserDetailsManager:
+
+Implementation of UserDetailsManager in Spring Security.
+Stores user details in memory.
+Suitable for small applications or testing.
+User details are not persistent; they are lost on application restart.  
+
+
+JdbcUserDetailsManager:
+
+Implementation of UserDetailsManager in Spring Security.
+Stores user details in a relational database using JDBC.
+Suitable for larger applications where user details need to be persistent.
+User details are stored in database tables.  
+
+
+UserDetails:
+
+Interface in Spring Security representing user details.
+Contains information like username, password, authorities (roles), account status, etc.
+Implemented by objects that hold user details, and both InMemoryUserDetailsManager and JdbcUserDetailsManager work with UserDetails objects.
+In essence, these components provide different ways of managing user details, either in-memory or through a JDBC-connected database, catering to different application needs and scales.
+
 
 ## Interfaces
 ##### admin
