@@ -38,7 +38,7 @@ public class AccountServiceImpl implements AccountService {
                 .email(email).build();
         AppUser savedAppUser = appUserRepository.save(appUser);
 
-        return null;
+        return savedAppUser;
     }
 
     @Override

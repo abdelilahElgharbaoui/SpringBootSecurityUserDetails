@@ -27,10 +27,10 @@
                  name="score" th:value="${patient.score}">
           <span class="text-danger" th:errors="${patient.score}" th:value="${patient.malade}"></span>
         </div>
-        <div class="form-check mb-3">
-          <label class="form-check-label">
-            <input class="form-check-input" type="checkbox" name="remember"> Malade
-          </label>
+        <div class="m-3">
+          <label for="malade">Malade</label>
+          <input id="malade" type="checkbox" name="malade" th:checked="${patient.malade}">
+          <span class="text-danger" th:errors="${patient.malade}"></span>
         </div>
         <button type="submit" class="btn btn-primary">Save</button>
       </form>

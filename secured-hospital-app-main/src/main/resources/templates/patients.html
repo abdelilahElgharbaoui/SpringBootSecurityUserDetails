@@ -31,7 +31,7 @@
           <table class="table">
             <thead>
             <tr>
-              <th>ID</th><th>Nom</th><th>Date</th><th>Score</th><th>Malade</th>
+              <th>ID</th><th>Nom</th><th>Date</th><th>Malade</th><th>Score</th><th>Action</th>
             </tr>
             </thead>
             <tbody>
@@ -44,7 +44,7 @@
 
               <td th:if="${#authorization.expression('hasRole(''ADMIN'')')}">
                 <a onclick="return confirm('Etes vous sûre?')" class="btn btn-danger"
-                   th:href="@{/admin/deletePatient(id=${p.id}, keyword=${keyword}, page=${currentPage})}">
+                   th:href="@{/user/deletePatient(id=${p.id}, keyword=${keyword}, page=${currentPage})}">
                   <i class="bi bi-trash"></i>
                 </a>
               </td>

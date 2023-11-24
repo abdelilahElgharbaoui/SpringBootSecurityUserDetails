@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3e8e930-52df-44eb-9bac-3e1a1b237101" name="Changes" comment="first commit" />
+    <list default="true" id="a3e8e930-52df-44eb-9bac-3e1a1b237101" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secured-hospital-app-main/src/main/java/ma/elgharbaoui/hospitalapp/HospitalAppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/secured-hospital-app-main/src/main/java/ma/elgharbaoui/hospitalapp/HospitalAppApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secured-hospital-app-main/src/main/java/ma/elgharbaoui/hospitalapp/security/service/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/secured-hospital-app-main/src/main/java/ma/elgharbaoui/hospitalapp/security/service/AccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secured-hospital-app-main/src/main/java/ma/elgharbaoui/hospitalapp/web/PatientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/secured-hospital-app-main/src/main/java/ma/elgharbaoui/hospitalapp/web/PatientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secured-hospital-app-main/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/secured-hospital-app-main/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secured-hospital-app-main/src/main/resources/templates/editPatient.html" beforeDir="false" afterPath="$PROJECT_DIR$/secured-hospital-app-main/src/main/resources/templates/editPatient.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secured-hospital-app-main/src/main/resources/templates/formPatient.html" beforeDir="false" afterPath="$PROJECT_DIR$/secured-hospital-app-main/src/main/resources/templates/formPatient.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secured-hospital-app-main/src/main/resources/templates/patients.html" beforeDir="false" afterPath="$PROJECT_DIR$/secured-hospital-app-main/src/main/resources/templates/patients.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secured-hospital-app-main/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/secured-hospital-app-main/target/classes/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/secured-hospital-app-main/target/classes/templates/editPatient.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/secured-hospital-app-main/target/classes/templates/formPatient.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/secured-hospital-app-main/target/classes/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/secured-hospital-app-main/target/classes/templates/notAuthorized.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/secured-hospital-app-main/target/classes/templates/patients.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/secured-hospital-app-main/target/classes/templates/template.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,11 +45,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -58,27 +77,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/abdoe/Downloads/secured-hospital-app-main-JDBC",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propCompiler",
-    "spring.configuration.checksum": "ed1bc0952e739bc0623b20b9baee4484",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/abdoe/Downloads/secured-hospital-app-main-JDBC&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.notifications&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;ed1bc0952e739bc0623b20b9baee4484&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ma.elgharbaoui.hospitalapp.security.service" />
@@ -98,7 +120,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="HospitalAppApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="HospitalAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="hospital-app" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ma.elgharbaoui.hospitalapp.HospitalAppApplication" />
       <extension name="coverage">
@@ -113,7 +135,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.HospitalAppApplication (1)" />
+        <item itemvalue="Spring Boot.HospitalAppApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +158,12 @@
       <workItem from="1700740589389" duration="421000" />
       <workItem from="1700739139638" duration="2763000" />
       <workItem from="1700751165624" duration="863000" />
-      <workItem from="1700764110381" duration="2128000" />
+      <workItem from="1700764110381" duration="2509000" />
+      <workItem from="1700766635296" duration="470000" />
+      <workItem from="1700767333773" duration="473000" />
+      <workItem from="1700767890673" duration="4991000" />
+      <workItem from="1700811046706" duration="1983000" />
+      <workItem from="1700823546752" duration="4170000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1700765462889</created>
